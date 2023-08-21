@@ -45,9 +45,9 @@ const styles = StyleSheet.create({
 
     },
     homeText: {
-      fontSize: wp(13),
+      fontSize: wp(10),
       fontWeight: '700',
-      textAlign: 'left',
+      textAlign: 'center',
       color: '#fff',
       marginLeft: 10
     },

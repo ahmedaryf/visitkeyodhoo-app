@@ -13,7 +13,7 @@ export default function WelcomeScreen() {
         <View style={styles.logoView}>
             <Image style={styles.logo} source={require('../../assets/images/newlogo-transparent.png')} />
         </View>
-        <LinearGradient
+                <LinearGradient
                     colors={['transparent', 'rgba(0, 0, 0, 0.8)']}
                     style={styles.gradient} 
                     start={{x: .5, y: 0}}

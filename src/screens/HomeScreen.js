@@ -5,6 +5,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 import { LinearGradient } from 'expo-linear-gradient';
 import Gueshouse from '../components/Guesthouses';
 import Destinations from '../components/Destinations';
+import About from '../components/About';
 
 export default function HomeScreen() {
     const navigation = useNavigation();
@@ -18,6 +19,10 @@ export default function HomeScreen() {
                 end={{x: 0.5, y: 1}}
             />
         <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
+            <View style={StyleSheet.create({height: hp(5)})}></View>
+            <View style={styles.aboutPage}>
+               <About />
+            </View>
             {/* Guesthouses */}
             <View style={styles.guesthouseView}>
                 <Gueshouse />
@@ -65,9 +70,9 @@ const styles = StyleSheet.create({
         
     },
     todoText: {
-        fontSize: wp(8),
+        fontSize: wp(10),
         fontWeight: '700',
-        textAlign: 'left',
+        textAlign: 'center',
         color: '#fff',
         marginLeft: 10,
         marginTop: 20
@@ -80,4 +85,5 @@ const styles = StyleSheet.create({
         borderBottomLeftRadius: 20,
         borderBottomRightRadius: 20,
     },
+
 })

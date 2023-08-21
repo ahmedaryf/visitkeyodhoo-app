@@ -1,34 +1,29 @@
 export const GuesthousesData = [
     {
         title: 'White Maakanaa Lodge',
-        image: require('../../assets/images/nature-gori.jpeg'),
+        image: require('../../assets/images/maakanaa.jpg'),
         shortName: 'Maakanaa',
         description: 'White Maakanaa Lodge is a beachfront guesthouse located on the sunset side of Keyodhoo Island in the Maldives. It offers comfortable and affordable accommodation for tourists visiting the island, with a range of rooms and amenities available to suit different needs and budgets. The guesthouse is designed in a modern style and features spacious rooms with modern facilities such as air conditioning, private bathrooms, and Wi-Fi. It also offers a variety of services including airport transfers, excursions, and meals. Visitors to the White Maakanaa Lodge can enjoy the breathtaking natural scenery of the island, with its pristine beaches, clear waters, and stunning coral reefs. Furthermore, guests have the unique opportunity to watch the mesmerizing sunset right from the guesthouse, creating a truly magical and unforgettable experience.'
     },
     {
         title: 'Hevana Maldives',
-        image: require('../../assets/images/vector-gora-.jpeg'),
+        image: require('../../assets/images/hevana.jpg'),
         shortName: 'Hevana',
         description: 'Welcome to Hevana Maldives Guesthouse, your perfect gateway to experiencing the beautiful Maldives on a budget. Our beachfront guesthouse located on the island of Keyodhoo offers a tranquil and relaxing atmosphere for guests to unwind and enjoy the natural beauty of the Maldives. We take pride in our friendly staff who are always ready to make your stay as comfortable and enjoyable as possible. Our budget-friendly accommodation options cater to all your needs and offer a wide variety of activities such as snorkelling, sandbank picnics, and visits to uninhabited islands to make your stay unforgettable. Come and indulge in the local Maldivian way of life while enjoying the crystal clear waters and pristine beaches of the Maldives. We look forward to welcoming you to Hevana Maldives Guesthouse.'
     },
     {
         title: 'Jupiter Sunrise Lodge',
-        image: require('../../assets/images/vector-gori-art-vektor.jpeg'),
+        image: require('../../assets/images/jupiter.jpg'),
         shortName: 'JSL',
         description: "Welcome to Jupiter Sunrise Lodge, your ultimate fishing destination in the stunning Vaavu Atoll of the Maldives! Our guesthouse is a haven for anglers of all levels, offering an array of exciting fishing trips tailored to your preferences. Whether you're looking for a serene fishing experience or a thrilling adventure on the high seas, we've got you covered with our variety of fishing activities. Our expert guides will take you to the best fishing spots in the Maldives, where you can catch a variety of fish, from giant trevally to yellowfin tuna. After a long day of fishing, pamper yourself at our on-site spa with a range of luxurious treatments and relax in our cozy and comfortable accommodations. Join us at Jupiter Sunrise Lodge for an unforgettable fishing adventure in the Maldives!"
     },
     {
         title: 'WOW Inn Keyodhoo',
-        image: require('../../assets/images/vector-gori.jpeg'),
+        image: require('../../assets/images/wowInn.jpg'),
         shortName: 'WOW Inn',
         description: 'Wow Inn Keyodhoo Guesthouse is a charming guesthouse located in the picturesque island of Keyodhoo, Maldives. The guesthouse offers comfortable rooms with modern amenities, including air conditioning and en-suite bathrooms. Guests can enjoy a range of activities, such as diving, snorkeling, fishing and beach dining. The guesthouse also has a restaurant that serves delicious local and international cuisine, and a rooftop terrace where guests can relax and enjoy panoramic views of the island. Wow Inn Keyodhoo is an excellent choice for travelers who are looking for a peaceful and relaxing holiday experience in the Maldives.'
     },
-    {
-        title: 'Into the Blue Lodge',
-        image: require('../../assets/images/vector-gorod.jpeg'),
-        shortName: 'Into the blue',
-        description: 'Into the Blue Lodge Guesthouse is a charming guesthouse located in the picturesque island of Keyodhoo, Maldives. The guesthouse offers comfortable rooms with modern amenities, including air conditioning and en-suite bathrooms. Guests can enjoy a range of activities, such as diving, snorkeling, fishing and beach dining. The guesthouse also has a restaurant that serves delicious local and international cuisine, and a rooftop terrace where guests can relax and enjoy panoramic views of the island. Into the Blue Lodge is an excellent choice for travelers who are looking for a peaceful and relaxing holiday experience in the Maldives.'
-    },
+  
 
     
 ]
