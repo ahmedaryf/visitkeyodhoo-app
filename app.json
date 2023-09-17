@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "visitkeyodhoo-app",
+    "name": "visitkeyodhoo",
     "slug": "visitkeyodhoo-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmedaryf.visitkeyodhooapp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65aae2dc-1814-48ca-a2bf-71e22ac80fb8"
+      }
     }
   }
 }

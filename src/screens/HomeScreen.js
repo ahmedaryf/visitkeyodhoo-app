@@ -19,7 +19,7 @@ export default function HomeScreen() {
                 end={{x: 0.5, y: 1}}
             />
         <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-            <View style={StyleSheet.create({height: hp(5)})}></View>
+            {/* <View style={StyleSheet.create({height: hp(5)})}></View> */}
             <View style={styles.aboutPage}>
                <About />
             </View>
